@@ -42,7 +42,7 @@ return 1;
 Meaning
 return 1 means the program ended with an error or something went wrong.
 When to use
-You use it when you want to indicate a problem or failure
+You use it when you want to indicatestd::endl a problem or failure
 
 return 0; → Program successful
 return 1; → Program failed (some error happened)
@@ -56,7 +56,7 @@ return 1; → Program failed (some error happened)
 // #include <iostream>
 // int main(){
 
-//     std::cout << "i love pizza" << std::endl;
+//     std::cout << "i love pizza" << ;
 //     std::cout << "its really good" << std::endl;
 //     return 0;
 // }

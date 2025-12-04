@@ -9,9 +9,9 @@ int main(){
 
     using namespace std;
 
-    string name="bro"; //(no need to use prefix)
+    string name="bro"; //(no need to use prefix "std::")
 
-    cout<<"hello "<<name; //(no need to use prefix)
+    cout<<"hello "<<name; //(no need to use prefix "std::")
 
 
 

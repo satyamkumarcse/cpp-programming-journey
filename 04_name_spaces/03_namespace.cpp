@@ -23,5 +23,5 @@ int main(){
 
 // Global variable means a variable declared outside any namespace and outside any function.
 
-// so, entities (here 1,2,0) can have same name as long as they are within a different namespace.
+// so, entities (here 1,2,0) can have same name (here x) as long as they are within a different namespace.
 

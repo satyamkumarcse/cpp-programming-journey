@@ -8,7 +8,8 @@ helps with readability and reduces typos.
 
 //In C++, <vector> is a standard library header that provides the std::vector container—one of the most widely used dynamic arrays.
 
-// we have studied many data types, bool,int,double,string.some datatypes are very long in names, we wont feel comfortable writing them again and again, so we can use typedef which helps with readability and reduces typos.
+// we have studied many data types, bool,int,double,string.some datatypes are very long in names, we wont feel comfortable writing them again and again while working on large projects, so we can use typedef which helps with readability and reduces typos.
+
 
 #include <iostream>
 #include <vector>
@@ -28,5 +29,5 @@ int main(){
 alias : pairlist_t
 
 this datatype could be for used for a pair list.
-a common convention is use_t at end of the new alias/identifier  
+a common convention is use _t at end of the new alias/identifier  
 */

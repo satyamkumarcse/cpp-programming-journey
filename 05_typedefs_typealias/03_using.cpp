@@ -25,5 +25,5 @@ int main(){
 
 typedef or "using" keyword are used to create additional name (alias/nickanme) for a datatype
 
-its basically a new identifier for existing data  type
+its basically a new identifier for existing data type
 */

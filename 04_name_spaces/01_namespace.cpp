@@ -7,7 +7,7 @@ int main(){
     /*
     int x=0;
     int x=1;
-    here we will get an error that, the variable was redeclared. 
+    here we will get an error that, the variable was re-declared. 
     but if we use namespaces, then two or more entities can share same name.
     we can declare any number of name space
     */

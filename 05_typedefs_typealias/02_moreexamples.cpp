@@ -10,7 +10,7 @@ typedef int number_t;
 int main(){
 
     // std::string name = "satyam"; //(instead of this)
-    text_t name = "satyam"; // (this works now)
+    text_t name = "satyam"; // (this also works now)
 
     // int age=19; (instead of this)
     number_t age=19;
@@ -26,5 +26,7 @@ int main(){
 
 // note#
 /*
+
 typedef has been largely replaced with "using" keyword, as it works better with templates(tempelates will be taught later)
+
 */

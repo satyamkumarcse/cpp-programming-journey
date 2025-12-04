@@ -1,4 +1,4 @@
-// make a python program using all datatypes and print them on a new line 
+// make a CPP program using all datatypes and print them on a new line 
 
 #include <iostream>
 int main() {
@@ -10,8 +10,8 @@ int main() {
     bool student = true;
     bool phd_scholar = false;
 
-    std::cout<<student<<std::endl;  // (true prints = 1 )
-    std::cout<<phd_scholar<<std::endl; // (false print = 0)
+    std::cout<<student<<std::endl;  // (true prints 1 )
+    std::cout<<phd_scholar<<std::endl; // (false print 0)
 
     double sgpa = 9.45;
 

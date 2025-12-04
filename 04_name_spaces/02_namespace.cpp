@@ -6,11 +6,11 @@ namespace first{
     int x = 1;
 }
 
-namespace second {
+namespace second{
 
     int x = 2;
 }
-namespace third {
+namespace third{
 
     int x = 3;
 }
@@ -29,6 +29,7 @@ int main(){
 /*
 
 :: --> are known as scope resolution operator.
+
 
 
 {first,second,third....so on, these are the "name" of namespace}

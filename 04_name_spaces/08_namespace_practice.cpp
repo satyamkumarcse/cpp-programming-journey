@@ -22,7 +22,7 @@ int main(){
     // using namespace tisra;
 
     // std::cout<<z;
-    std::string name="satyam";
+   //  std::string name="satyam";
     string name="satyam";
 
     int z=0;

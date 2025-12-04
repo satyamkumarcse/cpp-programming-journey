@@ -25,4 +25,5 @@ int main(){
 /*value of pi is always a constant value, someone can just change the value of pi in program and get wrong results. const is used for fixing the value of pi.
 
 adding const gives datasecurity.
-if we are using const for a variable. convetion is to write its name in PI*/
+if we are using const for a variable. convetion is to write its name in capital (PI) 
+*/
