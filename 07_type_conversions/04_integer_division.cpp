@@ -23,6 +23,7 @@ int main(){
     int correct = 8;
     int questions = 10;
     double percentage = (double)correct/questions *100;
+    // double percentage = (float)correct/questions *100;
 
 
     std::cout<<percentage<<"%"; //(the output will be 0. as 0.8 becomes 0, then is multipled by 100.
