@@ -4,7 +4,7 @@
 
 //x.clear() will clear out any thing that is stored in string(x)
 
-//x.append() we can append a string to another string
+//x.append() we can append a string to another string 
 
 //x.at()  we can write an index and get the character present at that particular index.
 
@@ -14,8 +14,7 @@
 
 // name.erase(begenning index,ending index) = erases a portion of the string. the ending index is excluded similar to pyton.
 
-
-
+// stoi(x)  if x is a string {string s}, then string to int can be done using stoi.
 #include <iostream>
 using namespace std;
 int main()
@@ -83,7 +82,8 @@ int main()
     // cout<<name.find("t");
 
     name.erase(0,3); // 
-    cout<<name;
+    cout<<name<<"\n";
+
 
 
 
