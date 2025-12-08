@@ -1,8 +1,6 @@
 
 /*some programmers prefer to write function block of code below the main(){} function for improving readability. but that is not possible in cpp. 
-
- the compiler reads the code from up to down.
-as the funciton is invoked before even its declared. */
+the compiler reads the code from up to down, as the funciton is invoked before even its declared. */
 
 
 

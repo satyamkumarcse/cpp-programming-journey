@@ -8,7 +8,7 @@ one solution is to declare functions at top. but define them later.
 using namespace std;
 
 
-void happy_birthday();
+void happy_birthday();   //(function has been declared)
 
 int main(){
     
