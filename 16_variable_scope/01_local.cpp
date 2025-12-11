@@ -12,15 +12,18 @@ usaually written or declared at top of a program.
 note_ functions can't see inside of other functions
 
 
-*/
+*
+
+
+
+
+
+
 
 
 
 
 // {first code}
-
-
-
 
 
 // #include <iostream>
@@ -49,8 +52,6 @@ note_ functions can't see inside of other functions
 
 
 // {second code}
-
-
 
 #include <iostream>
 using namespace std;

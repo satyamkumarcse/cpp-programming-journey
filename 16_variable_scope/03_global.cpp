@@ -29,7 +29,7 @@ void printnum(){
 // 3 will be printed as the answer
 /*
 its best of avoid using global variables if you can, because it pollutes the global namespace.
-also variables which are declared within a function are much more secured.
+also variables which are declared within a function are much more secured. 
 as functions cant see inside of other functions
 */
 

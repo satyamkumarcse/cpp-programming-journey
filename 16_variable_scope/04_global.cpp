@@ -14,7 +14,7 @@ int main(){
 
     // cout<<mynum;
     printnum();                //prints 1 (priority to local v'ble first)
-    // cout<<mynum<<"\n";         //prints 2 (same reason)
+    cout<<mynum<<"\n";         //prints 1 (same reason)
     cout<<::mynum<<"\n";         // prints 3   
 
     return 0;

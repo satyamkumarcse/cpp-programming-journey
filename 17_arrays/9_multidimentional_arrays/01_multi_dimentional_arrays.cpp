@@ -1,6 +1,6 @@
 // multidimentional arrays or more specifically 2d arrays
 // 2d_array = {array1,array2,array3}
-// 2d arrays = an array made up of seprate arrays
+// 2d arrays = an array made up of seprate arrays 
 // they are useful because they can represent grid or matrix of data with rows and columns.
 
 /*

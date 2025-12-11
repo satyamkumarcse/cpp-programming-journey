@@ -6,7 +6,15 @@
 
 //x.append() we can append a string to another string 
 
-//x.at()  we can write an index and get the character present at that particular index.
+//x.at()  we can write an index and get the character present at that particular index. it returns char.
+
+
+
+
+// x.size()  --> length of string
+
+
+
 
 //x.insert(index,"y")   we can insert a character at a given position in the string. "y" here is letter of anytype
 
@@ -89,4 +97,7 @@ int main()
 
     return 0;
 }
+
+// x = toupper(y)   for interchanging cases
+// x = tolower(y)
 

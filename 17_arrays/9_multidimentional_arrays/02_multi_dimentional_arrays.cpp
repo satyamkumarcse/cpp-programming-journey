@@ -1,4 +1,4 @@
-//  iterating over an 2D array and displaying the elements
+//  iterating over an 2D array and displaying the elements 
 /*
 can be done by using a nested loops.
 let us first calculate the number of rows and columns.

@@ -14,7 +14,7 @@ int main(){
 
     int mynum = 1;
 
-    // cout<<mynum;
+    cout<<mynum<<"\n";
     printnum();
 
     return 0;
