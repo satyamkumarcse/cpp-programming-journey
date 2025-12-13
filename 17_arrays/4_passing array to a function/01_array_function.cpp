@@ -1,18 +1,22 @@
 // variables can have same name, as long as they are in different function.
 
-double getsum(double prices[]);
+
 
 #include <iostream>
 using namespace std;
 
+double getsum(double prices[]);
+
 int main(){
 
     double prices[]={7.99,8.99,6.50,5.25,4.50};
-    double total  = getsum(prices);  // square brackets are not required
+    double total  = getsum(prices);  // square brackets are not required while invoking a function that has array in it as parameter.
 
 
 return 0;
 }
+
+
 
 double getsum(double prices[]){
     double total=0;
@@ -32,4 +36,4 @@ double getsum(double prices[]){
 // the function has no idea, how big the array is.
 // we cant calculate how big this array is.
 
-// in order to deal with this, on line 11. when we invoke the function. we can pass the array as well as the size of the array.
+// in order to deal with this, on line 13. when we invoke the function. we can pass the array as well as the size of the array.

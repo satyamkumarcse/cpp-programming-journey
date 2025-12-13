@@ -1,5 +1,5 @@
 
-// x = toupper(x),tolower - for changing case of a string written text 
+// x = toupper(x),   tolower - for changing case of a string written text 
 
 #include <iostream>
 using namespace std;

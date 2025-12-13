@@ -67,7 +67,7 @@ int sumodd(string cardnumber){                 // main function of helper functi
 
     for(int i=cardnumber.size()-2;i>=0;i-=2){
 
-        sum += getnumber((cardnumber[i]-'0')*2);     //ASCII 
+        sum += getnumber((cardnumber[i]-'0')*2);     //ASCII values are subtraction (integers)
 
       
 
