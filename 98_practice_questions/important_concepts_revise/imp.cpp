@@ -57,3 +57,11 @@
 
 //     return 0;
 //  }
+
+
+
+// in C++, you must use char when accessing a single letter from a std::string.
+// Why do we use char?
+// A string in C++ is basically an array of characters. It is a chain of small boxes, and inside each box is exactly one char.
+
+// When you write word[0], you are opening the first box. The thing inside that box is defined as a char.
