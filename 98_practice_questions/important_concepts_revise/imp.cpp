@@ -65,3 +65,18 @@
 // A string in C++ is basically an array of characters. It is a chain of small boxes, and inside each box is exactly one char.
 
 // When you write word[0], you are opening the first box. The thing inside that box is defined as a char.
+
+
+
+/*
+
+break can be used ONLY inside:
+for
+while
+do-while
+switch
+
+You are inside a function, not a loop.
+To stop execution of a function, you must use:
+return;
+*/

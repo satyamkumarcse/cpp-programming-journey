@@ -23,7 +23,7 @@ int main(){
     else{
 
         cout<<"address was assigned"<<"\n";
-        cout<<*pointer;
+        cout<<*pointer;   
         
 
     }
@@ -31,6 +31,7 @@ int main(){
    
     return 0;
 }
+
 //  conclusion :
 // a pointer should either point at an address or at the nullptr keyword.
 // because otherwise, we dont know where its pointing originally.

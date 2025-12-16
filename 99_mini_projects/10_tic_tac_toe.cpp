@@ -1,37 +1,33 @@
-// the user will be promted to take input 5 times, computer will have its turn 4 timmes.
 
-#include <iostream>
-#include <ctime>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-string computerchoice();
+// void arrayelements(int arr[],int size);
 
-int main(){
-    string choice;
+// int main(){
+    
+        
 
-    cout<<"enter your choice (X/O) : ";
-    cin>>choice;
-
-
+//     int arr[] = {12,23,45,67,35,6,7,4,3,3};
+//     int size = sizeof(arr)/sizeof(arr[0]);
+//     arrayelements(arr,size);
 
 
-return 0;
-}
-
-string computerchoice(){
-
-    srand(time(0));
-    int x = rand()%2;
-
-    if(x==0){
-
-        return "computer's choice was O";
-    }
-    else{
-
-        return "computer's choice was X";
-
-    }
 
 
-}
+//     return 0;
+
+
+// }
+
+// void arrayelements(int arr[],int size){
+
+//     for(int i=0;i<size;i++){
+
+//         cout<<arr[i]<<" ";
+//     }
+// }
+
+
+
+

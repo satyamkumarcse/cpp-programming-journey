@@ -11,7 +11,7 @@ int main(){
 
     // string *pFreePizzas = &freepizzas;
 
-    // here a problem will arise, my array is itself an address (--21), so there is no need to use ampersand {addressof operator (&) }
+    // here a problem will arise, my array is itself an address (--23), so there is no need to use ampersand {addressof operator (&) }
 
 
     string *pFreePizzas = freepizzas;

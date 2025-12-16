@@ -11,7 +11,7 @@
 
 //  ill tell people where the pizza is, rather than carrying it around with me.
 
-// while working with pointers, we need to use (& - address of ) operator which is also called as ampersand.
+// while working with pointers, we need to use (& - addressof ) operator which is also called as ampersand.
 
 // as well as ( * - Derefrence operator)
 
@@ -46,7 +46,7 @@ int main(){
     // the pointer contains this ( 0x61fef0 ) value, it contains memory address as its value.
     // in order to access this value, we can use the derefrence operator 
 
-    cout<<*pName;
+    cout<<*pName; 
 
     // output : satyam 
 
@@ -65,7 +65,7 @@ Pizzas → The actual data (for example, a big array, object, or struct).
 
 Your house (where pizzas are kept) → A specific location in memory where the data is stored.
 
-Your house address → The memory address of that data.
+Your house address → The memory address of that data. 
 
 Telling neighbours your address → Passing a pointer (a variable that stores that memory address).
 

@@ -34,6 +34,10 @@ int main(){
 
     pointer = &x;
 
+    cout<<pointer<<endl;    //prints the memory address
+    cout<<*pointer<<endl;   //prints the value stored at the memory address.
+
+
 
 return 0;
 }
