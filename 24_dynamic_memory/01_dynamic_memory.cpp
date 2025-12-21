@@ -26,7 +26,8 @@ int main(){
 
     int *pnum = nullptr; 
     pnum = new int; 
-    // in order to allocate memory in heap rather than stack. we will take the pointer and set this equal to, use the new operator then a datatype.
+    // in order to allocate memory in heap rather than stack. we will take the pointer and set this equal to, use the "new" operator then a datatype.
+    // variable = "new" + "datatype" ;
 
     // the new operator will return an address, and we are storing that address within pnum. as pnum is a pointer.
 
@@ -48,3 +49,8 @@ int main(){
 
     return 0;
 }
+
+//  delete x;
+//  delete x;
+
+//  if delete is written 2 times, it can lead to undefined behavior. as the memory in the heep is freed up in the first deletion only.

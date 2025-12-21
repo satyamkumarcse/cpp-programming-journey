@@ -6,9 +6,6 @@ int main(){
     double a;
     double b;
 
-    
-
-
 
     std::cout<<"enter side a: "<<std::endl;
     std::cin>>a;

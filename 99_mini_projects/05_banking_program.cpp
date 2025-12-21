@@ -42,7 +42,7 @@ int main(){
     return 0;
 }
 
-void checkbalance(double &balance){
+void checkbalance(double &balance){ 
 
     cout<<"current balance : "<<balance<<endl;
 

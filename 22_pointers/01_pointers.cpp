@@ -19,7 +19,6 @@
 // ( * - Derefrence operator) 
 
 
-
 //  lets create a pointer to a name 
 
 

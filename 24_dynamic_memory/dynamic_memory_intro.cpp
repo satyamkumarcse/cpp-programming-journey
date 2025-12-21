@@ -15,7 +15,7 @@ the memory is allocated automatically, its not in our control.
 at compile time, memory size is decided. 
 eg- int x=10;   x takes 4 bytes.
 the memory is stored in stack.
-when the main function or scope ends, memory is automatically released or destroyed by stack.
+when the main function or scope ends, memory is automatically released and destroyed by stack.
 
 
 this is called as automatic (static-sized) memory allocation.
@@ -98,4 +98,4 @@ Small logic programs
 
 */
 
-// in dynamic memory, "new" keyword creates memory in the heap and returns a memory address. after our work is done, we can use "delete" keyword to delete the dynamically assignd memory.
+// in dynamic memory, "new" keyword allocates memory in the heap instead of stack and returns a memory address. after our work is done, we can use "delete" keyword to delete the dynamically assignd memory.

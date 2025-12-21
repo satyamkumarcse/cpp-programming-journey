@@ -24,7 +24,7 @@ using namespace std;
 
 int main(){
 
-    // int *pointer;               //instead of not assinging a value 
+    // int *pointer;               //instead of not assinging a value to a pointer
 
     int *pointer = nullptr;        // do this
 
@@ -41,3 +41,4 @@ int main(){
 
 return 0;
 }
+

@@ -17,7 +17,7 @@ int size;
 cout<<"input the number of grades you want to enter: "<<endl;
 cin>>size;
 
-pGrades = new char[size];    // allocates memory in heap instead of stack.
+pGrades = new char[size];    // allocates memory in heap instead of stack for an array.
 
 for(int i=0;i<size;i++){
 
@@ -31,7 +31,7 @@ for(int i=0;i<size;i++){
     cout<<pGrades[i]<<" ";
 }
 
-delete[] pGrades;
+delete []pGrades;
 
 
 return 0;

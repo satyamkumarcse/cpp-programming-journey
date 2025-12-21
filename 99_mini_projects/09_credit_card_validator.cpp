@@ -35,7 +35,6 @@ int main(){
 
 int getnumber(const int number){            // helper function
 
-
     return number%10 + (number/10)%10;
 
 }
@@ -50,14 +49,8 @@ int sumeven(string cardnumber){
         sum += (cardnumber[i]-'0');
 
     
-
-
     }
         return sum;
-
-
-
-
 
 }
 
@@ -67,10 +60,7 @@ int sumodd(string cardnumber){                 // main function of helper functi
 
     for(int i=cardnumber.size()-2;i>=0;i-=2){
 
-        sum += getnumber((cardnumber[i]-'0')*2);     //ASCII values are subtraction (integers)
-
-      
-
+        sum += getnumber((cardnumber[i]-'0')*2);     //ASCII values are subtraction (integers)      
 
     }
 

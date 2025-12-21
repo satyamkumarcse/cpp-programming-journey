@@ -24,7 +24,7 @@ int main(){
     // output : 0x61fe80 
 
     // if we derefrence an array, it prints the first element
-
+    cout<<pFreePizzas<<endl;
     cout<<*pFreePizzas<<"\n";   // gives first element of the array.
     cout<<*(pFreePizzas+1);   // gives second element of the array.
 

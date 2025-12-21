@@ -2,6 +2,7 @@
 
 
 #include <iostream>
+
 using namespace std;
 
 
@@ -9,7 +10,6 @@ void swap(string x,string y);
 
 
 int main(){
-
 
 string x = "water";
 string y = "cold-drinks";
@@ -34,8 +34,6 @@ void swap(string x,string y){
 
     cout<<&x<<'\n';
     cout<<&y<<"\n";
-
-
 }
 
 /*
