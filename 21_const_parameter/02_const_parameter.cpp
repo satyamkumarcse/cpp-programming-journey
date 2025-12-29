@@ -20,7 +20,7 @@ void printinfo(const string &name,const int &age);
 
 void printinfo(const string &name,const int &age){
 
-    name = " ";
+    name = " ";      // shows error
     age = 0;
 
       cout<<name<<"\n"<<age;

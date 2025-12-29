@@ -24,8 +24,16 @@ using namespace std;
 
 int main(){
 
-    int *pnum = nullptr; 
-    pnum = new int; 
+    // int *pnum = nullptr; 
+    // pnum = new int; 
+
+    // or directly write
+
+    int *pnum = new int;
+
+
+
+
     // in order to allocate memory in heap rather than stack. we will take the pointer and set this equal to, use the "new" operator then a datatype.
     // variable = "new" + "datatype" ;
 

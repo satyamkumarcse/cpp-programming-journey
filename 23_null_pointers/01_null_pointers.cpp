@@ -42,3 +42,4 @@ int main(){
 return 0;
 }
 
+// * is used while creating/declaring a pointer & while printing the value stored in it.

@@ -888,154 +888,186 @@ Use these routines together in main and also include short comments that demonst
 Primality refers to the property of a number being prime.
 
 
-*/
+// */
 
 
 
-#include <iostream>
-#include <ctime>
-using namespace std;
+// #include <iostream>
+// #include <ctime>
+// using namespace std;
 
-int randominteger(int l,int u);
-void primality(int prime);
-void primeinterval(int x,int y);
+// int randominteger(int l,int u);
+// void primality(int prime);
+// void primeinterval(int x,int y);
 
-int main(){
-    int operation;
-    int l;
-    int u;
-    int prime;
-    int x;
-    int y;
+// int main(){
+//     int operation;
+//     int l;
+//     int u;
+//     int prime;
+//     int x;
+//     int y;
 
-    srand(time(NULL));
+//     srand(time(NULL));
 
-    cout<<"enter the test you want to peform (1/2/3) -- (test primality/printing primes of interval /random integer in interval) : ";
-    cin>>operation;
+//     cout<<"enter the test you want to peform (1/2/3) -- (test primality/printing primes of interval /random integer in interval) : ";
+//     cin>>operation;
 
-    if(operation==3){
-    cout<<"enter lower limit of range you want to generate random number on: ";
-    cin>>l;
-    cout<<"enter upper limit of range you want to generate random number on: ";
-    cin>>u;
-    randominteger(l,u);
-
-
+//     if(operation==3){
+//     cout<<"enter lower limit of range you want to generate random number on: ";
+//     cin>>l;
+//     cout<<"enter upper limit of range you want to generate random number on: ";
+//     cin>>u;
+//     randominteger(l,u);
 
 
-    }
-    else if(operation==1){
 
-        cout<<"enter the number you want to test primality of: "<<endl;
-        cin>>prime;
-        primality(prime);
-    }
-    else if(operation==2){
+
+//     }
+//     else if(operation==1){
+
+//         cout<<"enter the number you want to test primality of: "<<endl;
+//         cin>>prime;
+//         primality(prime);
+//     }
+//     else if(operation==2){
        
 
-        cout<<"enter the range's lower limit: ";
-        cin>>x;
-        cout<<"enter the range's upper limit: ";
-        cin>>y;
-        primeinterval(x,y);
+//         cout<<"enter the range's lower limit: ";
+//         cin>>x;
+//         cout<<"enter the range's upper limit: ";
+//         cin>>y;
+//         primeinterval(x,y);
 
 
 
+//     }
+
+
+//     return 0;
+// }
+
+
+
+// int randominteger(int l, int u) {
+//     if (l > u) {
+//         cout << "invalid range" << endl;
+//         return -1; 
+//     }
+    
+//     int k;
+//     do {
+//         k = rand() % (u - l + 1) + l;
+//     } while (k % 2 != 0);
+    
+//     return k;
+// }
+
+// void primality(int prime){
+
+//     for(int i=2;i<=prime-1;i++){
+
+//         if(prime%i==0){
+
+//             cout<< "its not a prime number"<<endl;
+//             return;
+
+//         }
+
+//     }
+//     cout<<"its a prime number"<<endl;
+    
+
+// }
+
+// void primeinterval(int x,int y){
+//     int j;
+//     int i;
+    
+
+       
+
+        
+
+//     for(j=x;j<=y;j++){
+//         bool isprime = true;    // declaration
+
+//         if(j<2){
+//              isprime = false;       // dont write "bool is prime = false"  that re declares the vble.
+//         }
+        
+
+//         else{
+            
+//              for(i=2;i<=j-1;i++){
+
+//             if(j%i==0){
+
+//                 isprime = false;
+//                 break;   
+
+//         }
+        
+
+
+
+
+
+//         }
+
+//         }
+
+
+//         if(isprime==true){
+//         cout<<j<<" is a prime number"<<endl;
+//     }
+//         else{
+//             cout<<j<<" is not a prime number"<<endl;
+
+//         }
+    
+        
+       
+        
+        
+
+//     }
+    
+
+//     }
+    
+
+ #include <iostream>
+ using namespace std;
+
+ int main(){
+    int start,end,target,k,count=0;
+    cout<<"enter lower limit: "<<endl;
+
+    cin>>start;
+    cout<<"enter upper limit: "<<endl;
+    cin>>end;
+    cout<<"enter threshold target: "<<endl;
+    cin>>target;
+    
+
+    for(int i=start;i<=end;i++){
+
+        int j = i;
+            do{k = j%10;
+            if(k>target){
+                count++;
+            }
+            j/=10;}while(j>0);
+        
+      
     }
+      cout<<count;
 
 
     return 0;
-}
+ }
 
-
-
-int randominteger(int l, int u) {
-    if (l > u) {
-        cout << "invalid range" << endl;
-        return -1; 
-    }
-    
-    int k;
-    do {
-        k = rand() % (u - l + 1) + l;
-    } while (k % 2 != 0);
-    
-    return k;
-}
-
-void primality(int prime){
-
-    for(int i=2;i<=prime-1;i++){
-
-        if(prime%i==0){
-
-            cout<< "its not a prime number"<<endl;
-            return;
-
-        }
-
-    }
-    cout<<"its a prime number"<<endl;
-    
-
-}
-
-void primeinterval(int x,int y){
-    int j;
-    int i;
-    
-
-       
-
-        
-
-    for(j=x;j<=y;j++){
-        bool isprime = true;    // declaration
-
-        if(j<2){
-             isprime = false;       // dont write "bool is prime = false"  that re declares the vble.
-        }
-        
-
-        else{
-            
-             for(i=2;i<=j-1;i++){
-
-            if(j%i==0){
-
-                isprime = false;
-                break;   
-
-        }
-        
-
-
-
-
-
-        }
-
-        }
-
-
-        if(isprime==true){
-        cout<<j<<" is a prime number"<<endl;
-    }
-        else{
-            cout<<j<<" is not a prime number"<<endl;
-
-        }
-    
-        
-       
-        
-        
-
-    }
-    
-
-    }
-    
     
 
     

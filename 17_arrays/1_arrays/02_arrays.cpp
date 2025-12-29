@@ -6,7 +6,7 @@
 using namespace std;
 int main(){
 
-    // string cars[];      (shows error)       // array has been declared, values will be assigned later.
+    // string cars[];     wrong  (shows error)       // array has been declared, values will be assigned later.
     string cars[3];                            // set a size
 
     cars[0] = "audi";
